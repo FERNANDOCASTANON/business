@@ -239,7 +239,7 @@
   margin-bottom: -5px;
 } */
 .service-wrap {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
   overflow: hidden;
   padding: 25px 35px;
   position: relative;
@@ -321,4 +321,33 @@
 }
 /***************************************************
                   Services ends
+***************************************************/
+
+/***************************************************
+                  works start
+***************************************************/
+.works {
+  margin-top: 25px;
+}
+
+.row.no-gutters [class*=col-]{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-wrapper {
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.img-wrapper img:hover {
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+/***************************************************
+                  works ends
 ***************************************************/
