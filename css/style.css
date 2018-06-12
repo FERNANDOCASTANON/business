@@ -333,6 +333,7 @@
 .row.no-gutters [class*=col-]{
   padding-left: 0;
   padding-right: 0;
+  margin-top: 0;
 }
 
 .img-wrapper {
@@ -350,4 +351,55 @@
 }
 /***************************************************
                   works ends
+***************************************************/
+
+/***************************************************
+                  Clients Starts
+***************************************************/
+.team-member {
+  margin: 0 25px;
+}
+
+.team-member-info {
+  padding: 10px 0 30px 0;
+}
+
+.team-member-name {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 2px;
+}
+
+h4.team-member-designation {
+  color: #34c6d3;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.social-list {
+  padding-left: 0;
+}
+
+.social-list li {
+  list-style-type: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.social-list i {
+  font-size: 17px;
+}
+
+.icon-gray i {
+  color: #64787b;
+}
+/***************************************************
+                  Clients Ends
 ***************************************************/
