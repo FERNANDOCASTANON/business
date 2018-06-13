@@ -1,6 +1,9 @@
 /***************************************************
                   Basic Properties starts
 ***************************************************/
+body {
+  overflow-x: hidden;
+}
 * {
   margin: 0;
   padding: 0;
@@ -402,4 +405,47 @@ h4.team-member-designation {
 }
 /***************************************************
                   Clients Ends
+***************************************************/
+
+/***************************************************
+                  Reviews
+***************************************************/
+.carousel-inner img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 3px solid white;
+  padding: 5px;
+}
+
+.testimonials {
+  background: url('../img/laptop2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: orange;
+  padding-top: 80px;
+  padding-bottom: 155px;
+}
+
+.testimonials .carousel-indicators {
+  bottom: -60px;
+}
+
+.border-bottom {
+  width: 40px;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+}
+
+.carousel-inner p {
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+/***************************************************
+                  Reviews End
 ***************************************************/
